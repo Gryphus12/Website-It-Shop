@@ -238,7 +238,7 @@ background: url(network-network-cables-connection-plug.jpg);
 }
 
 /* IT-Shop */
-IT-Shop{
+.IT-Shop{
 position: absolute;
 width: 252px;
 height: 60px;
@@ -260,7 +260,7 @@ color: #FFFFFF;
 
 
 /* Wir freuen uns, dass Sie den Weg auf unsere Website gefunden haben. Falls Sie auf der Suche nach IT-Zubehör z.B.: Server, Festplatten, Netzwerkkabel oder Switches sind, dann sind Sie bei uns genau richtig. Wir wünschen Ihnen viel Spaß beim Stöbern. Ihr IT-Shop Team */
-Text-Startseite{
+.Text-Startseite{
 position: absolute;
 width: 1157px;
 height: 172px;
@@ -323,7 +323,7 @@ top: 89.01px;
 
 background: #FFFAFA;
 transform: rotate(179.77deg);
-}
+
 
 /* About */
 About{
