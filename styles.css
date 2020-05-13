@@ -1,24 +1,20 @@
 /* Landing Page */
-Landing{
+.Landing{
 position: relative;
 width: 1920px;
 height: 1080px;
-}
-
-/* Gray 1 */
-grau{
 background: #333333;
 }
 
 /* Hintergrundbild */
-Hintergrund{
+.Hintergrund{
 position: absolute;
-width: 1920px;
-height: 1080px;
+width: 100%;
+height: 100%;
 left: 0px;
 top: 0px;
 
-background: url(network-3524352_1280.jpg);
+background: url(Hintergrund.jpg);
 opacity: 0.5;
 border: 1px solid #000000;
 box-sizing: border-box;
@@ -26,7 +22,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Kategorien */
-Kategorie{
+.Kategorie{
 position: absolute;
 width: 1798px;
 height: 484.11px;
@@ -35,18 +31,11 @@ top: 457px;
 }
 
 
-/* Server */
-Server{
-position: absolute;
-width: 395px;
-height: 484.11px;
-left: 61px;
-top: 457px;
-}
 
 
-/* Rectangle 1 */
-Rechteck{
+
+/* Rectangle 1 
+.Rechteck{
 position: absolute;
 width: 380px;
 height: 380px;
@@ -55,26 +44,27 @@ top: 457px;
 
 background: #C4C4C4;
 }
+*/
 
 /* Rechenzentrum 2 */
-Rechenzentrum{
+.Rechenzentrum{
 position: absolute;
 width: 395px;
 height: 380px;
 left: 61px;
 top: 457px;
 
-background: url(Rechenzentrum.jpg);
+background: url(Server1.jpg);
 }
 
 /* Server */
-Server{
-position: absolute;
-width: 138.05px;
-height: 50.11px;
-left: 196px;
-top: 891px;
-
+.Server_Titel{
+position: relative;
+width: 395px;
+height: 5px;
+left: 150px;
+top: 50px;
+    
 font-family: Righteous;
 font-style: normal;
 font-weight: normal;
@@ -89,7 +79,7 @@ color: #FFF9F9;
 
 
 /* Festplatten */
-Festplatten{
+.Festplatten{
 position: absolute;
 width: 380px;
 height: 484px;
@@ -98,35 +88,26 @@ top: 457px;
 }
 
 
-/* Rectangle 1 */
-Rechteck2{
-position: absolute;
-width: 380px;
-height: 380px;
-left: 538px;
-top: 457px;
 
-background: #C4C4C4;
-}
 
 /* SSD´s */
-SSD{
+.SSD{
 position: absolute;
 width: 380px;
 height: 380px;
 left: 538px;
 top: 457px;
 
-background: url(ktc-header-category-ssd-lg.jpg);
+background: url(Festplatte.jpg)
 }
 
 /* Festplatten */
-Festplatten{
-position: absolute;
-width: 190px;
-height: 50px;
-left: 633px;
-top: 891px;
+.Festplatten_Titel{
+position: relative;
+width: 395px;
+height: 5px;
+left: 150px;
+top: 50px;
 
 font-family: Righteous;
 font-style: normal;
@@ -141,30 +122,21 @@ color: #FFF9F9;
 }
 
 
-/* Rectangle 1 */
-Rechteck3{
+
+
+/* Switches */
+.Switches{
 position: absolute;
 width: 380px;
 height: 380px;
 left: 1009px;
 top: 457px;
 
-background: #C4C4C4;
+background: url(RJ45_Switch_Ports.jpg);
 }
 
 /* Switches */
-Switches{
-position: absolute;
-width: 380px;
-height: 380px;
-left: 1009px;
-top: 457px;
-
-background: url(switch-686296_640.jpg);
-}
-
-/* Switches */
-Switch_Schrift{
+.Switch_Schrift{
 position: absolute;
 width: 159px;
 height: 50px;
@@ -185,7 +157,7 @@ color: #FFF9F9;
 
 
 /* Netzwerkkabel */
-Netzwerkkabel{
+.Netzwerkkabel{
 position: absolute;
 width: 380px;
 height: 478px;
@@ -194,19 +166,10 @@ top: 457px;
 }
 
 
-/* Rectangle 1 */
-Rechteck4{
-position: absolute;
-width: 380px;
-height: 380px;
-left: 1479px;
-top: 457px;
 
-background: #C4C4C4;
-}
 
 /* Netzwerkzubehör */
-Netzwerkzubehör{
+.Netzwerkzubehör{
 position: absolute;
 width: 308px;
 height: 50px;
@@ -227,12 +190,13 @@ color: #FFF9F9;
 
 
 /* Netzwerkzubehör-Bild */
-Netzwerkkabel_Bild{
+.Netzwerkkabel_Bild{
 position: absolute;
 width: 380px;
 height: 380px;
 left: 1479px;
 top: 457px;
+
 
 background: url(network-network-cables-connection-plug.jpg);
 }
@@ -283,7 +247,7 @@ backdrop-filter: blur(4px);
 }
 
 /* Menüleiste */
-Menüleiste{
+.Menüleiste{
 position: absolute;
 width: 655px;
 height: 60px;
@@ -293,7 +257,7 @@ top: 51px;
 
 
 /* Shop */
-Shop{
+.Shop{
 position: absolute;
 width: 94.45px;
 height: 52px;
@@ -314,7 +278,7 @@ color: #FFFFFF;
 
 
 /* Polygon 2 */
-Polygon{
+.Polygon{
 position: absolute;
 width: 17.96px;
 height: 14.01px;
@@ -323,10 +287,10 @@ top: 89.01px;
 
 background: #FFFAFA;
 transform: rotate(179.77deg);
-
+}
 
 /* About */
-About{
+.About{
 position: absolute;
 width: 80.8px;
 height: 52px;
@@ -347,7 +311,7 @@ color: #FFFFFF;
 
 
 /* Kontakt */
-Kontakt{
+.Kontakt{
 position: absolute;
 width: 125px;
 height: 52px;
@@ -368,7 +332,7 @@ color: #FFFFFF;
 
 
 /* Home */
-Home{
+.Home{
 position: absolute;
 width: 80.8px;
 height: 52px;
@@ -389,7 +353,7 @@ color: #FFFFFF;
 
 
 /* Warenkorb gesamt */
-Warenkorb_gesamt{
+.Warenkorb_gesamt{
 position: absolute;
 width: 126px;
 height: 60px;
@@ -399,7 +363,7 @@ top: 51px;
 
 
 /* Ellipse 1 Warenkorbanzahl */
-Warenkorb_Anzahl_Ellipse{
+.Warenkorb_Anzahl_Ellipse{
 position: absolute;
 width: 126px;
 height: 60px;
@@ -410,7 +374,7 @@ background: #FFFFFF;
 }
 
 /* Warenkorb 1 */
-Warenkorb_Logo{
+.Warenkorb_Logo{
 position: absolute;
 width: 44px;
 height: 34px;
@@ -424,7 +388,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* Anzahl Warenkorb */
-Anzahl_Warenkorb{
+.Anzahl_Warenkorb{
 position: absolute;
 width: 62px;
 height: 39px;
