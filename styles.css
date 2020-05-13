@@ -1,0 +1,474 @@
+/* Landing Page */
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+/* Gray 1 */
+background: #333333;
+
+
+/* Hintergrundbild */
+
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+
+background: url(network-3524352_1280.jpg);
+opacity: 0.5;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Kategorien */
+
+position: absolute;
+width: 1798px;
+height: 484.11px;
+left: 61px;
+top: 457px;
+
+
+
+/* Server */
+
+position: absolute;
+width: 395px;
+height: 484.11px;
+left: 61px;
+top: 457px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 380px;
+height: 380px;
+left: 61px;
+top: 457px;
+
+background: #C4C4C4;
+
+
+/* Rechenzentrum 2 */
+
+position: absolute;
+width: 395px;
+height: 380px;
+left: 61px;
+top: 457px;
+
+background: url(Rechenzentrum.jpg);
+
+
+/* Server */
+
+position: absolute;
+width: 138.05px;
+height: 50.11px;
+left: 196px;
+top: 891px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFF9F9;
+
+
+
+/* Festplatten */
+
+position: absolute;
+width: 380px;
+height: 484px;
+left: 538px;
+top: 457px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 380px;
+height: 380px;
+left: 538px;
+top: 457px;
+
+background: #C4C4C4;
+
+
+/* SSD´s */
+
+position: absolute;
+width: 380px;
+height: 380px;
+left: 538px;
+top: 457px;
+
+background: url(ktc-header-category-ssd-lg.jpg);
+
+
+/* Festplatten */
+
+position: absolute;
+width: 190px;
+height: 50px;
+left: 633px;
+top: 891px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFF9F9;
+
+
+
+/* Switches */
+
+position: absolute;
+width: 380px;
+height: 484px;
+left: 1009px;
+top: 457px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 380px;
+height: 380px;
+left: 1009px;
+top: 457px;
+
+background: #C4C4C4;
+
+
+/* Switches */
+
+position: absolute;
+width: 380px;
+height: 380px;
+left: 1009px;
+top: 457px;
+
+background: url(switch-686296_640.jpg);
+
+
+/* Switches */
+
+position: absolute;
+width: 159px;
+height: 50px;
+left: 1121px;
+top: 891px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFF9F9;
+
+
+
+/* Netzwerkkabel */
+
+position: absolute;
+width: 380px;
+height: 478px;
+left: 1479px;
+top: 457px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 380px;
+height: 380px;
+left: 1479px;
+top: 457px;
+
+background: #C4C4C4;
+
+
+/* Netzwerkzubehör */
+
+position: absolute;
+width: 308px;
+height: 50px;
+left: 1524px;
+top: 885px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFF9F9;
+
+
+
+/* Netzwerkzubehör-Bild */
+
+position: absolute;
+width: 380px;
+height: 380px;
+left: 1479px;
+top: 457px;
+
+background: url(network-network-cables-connection-plug.jpg);
+
+
+/* IT-Shop */
+
+position: absolute;
+width: 252px;
+height: 60px;
+left: 46px;
+top: 51px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 62px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* IT-Shop */
+
+position: absolute;
+width: 252px;
+height: 60px;
+left: 46px;
+top: 51px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 62px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+/* Wir freuen uns, dass Sie den Weg auf unsere Website gefunden haben. Falls Sie auf der Suche nach IT-Zubehör z.B.: Server, Festplatten, Netzwerkkabel oder Switches sind, dann sind Sie bei uns genau richtig. Wir wünschen Ihnen viel Spaß beim Stöbern. Ihr IT-Shop Team */
+
+position: absolute;
+width: 1157px;
+height: 172px;
+left: 68px;
+top: 198px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 43px;
+display: flex;
+align-items: center;
+text-align: justify;
+
+color: #FFFCFC;
+
+backdrop-filter: blur(4px);
+/* Note: backdrop-filter has minimal browser support */
+
+
+/* Menüleiste */
+
+position: absolute;
+width: 655px;
+height: 60px;
+left: 1204px;
+top: 51px;
+
+
+
+/* Shop */
+
+position: absolute;
+width: 94.45px;
+height: 52px;
+left: 1310px;
+top: 55px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Polygon 2 */
+
+position: absolute;
+width: 17.96px;
+height: 14.01px;
+left: 1419.02px;
+top: 89.01px;
+
+background: #FFFAFA;
+transform: rotate(179.77deg);
+
+
+/* About */
+
+position: absolute;
+width: 80.8px;
+height: 52px;
+left: 1590px;
+top: 55px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Kontakt */
+
+position: absolute;
+width: 125px;
+height: 52px;
+left: 1434px;
+top: 55px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Home */
+
+position: absolute;
+width: 80.8px;
+height: 52px;
+left: 1204px;
+top: 55px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Warenkorb gesamt */
+
+position: absolute;
+width: 126px;
+height: 60px;
+left: 1733px;
+top: 51px;
+
+
+
+/* Ellipse 1 Warenkorbanzahl */
+
+position: absolute;
+width: 126px;
+height: 60px;
+left: 1733px;
+top: 51px;
+
+background: #FFFFFF;
+
+
+/* Warenkorb 1 */
+
+position: absolute;
+width: 44px;
+height: 34px;
+left: 1763px;
+top: 62px;
+
+background: url(Warenkorb.png);
+background-blend-mode: lighten;
+mix-blend-mode: normal;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Anzahl Warenkorb */
+
+position: absolute;
+width: 62px;
+height: 39px;
+left: 1785px;
+top: 58px;
+
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
