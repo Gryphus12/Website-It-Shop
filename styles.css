@@ -31,9 +31,6 @@ top: 457px;
 }
 
 
-
-
-
 /* Rectangle 1 
 .Rechteck{
 position: absolute;
@@ -52,7 +49,7 @@ position: absolute;
 width: 395px;
 height: 5px;
 left: 0%;
-top: 457px;
+top: 380px;
 
 background: url(Server1.jpg);
 }
@@ -62,7 +59,7 @@ background: url(Server1.jpg);
 position: relative;
 width: 395px;
 height: 5px;
-left: 50%;
+left: 40%;
 top: 50px;
     
 font-family: Righteous;
@@ -82,8 +79,8 @@ color: #FFF9F9;
 position: absolute;
 width: 380px;
 height: 380px;
-left: 25%;
-top: 457px;
+left: 24%;
+top: 380px;
 
 background: url(Festplatte.jpg)
 }
@@ -93,7 +90,7 @@ background: url(Festplatte.jpg)
 position: relative;
 width: 395px;
 height: 5px;
-left: 0%;
+left: 35%;
 top: 50px;
 
 font-family: Righteous;
@@ -108,16 +105,13 @@ text-align: center;
 color: #FFF9F9;
 }
 
-
-
-
 /* Switches */
 .Switches_Bild{
 position: absolute;
 width: 380px;
 height: 380px;
-left: 50%;
-top: 457px;
+left: 48%;
+top: 380px;
 
 background: url(RJ45_Switch_Ports.jpg);
 }
@@ -127,7 +121,7 @@ background: url(RJ45_Switch_Ports.jpg);
 position: relative;
 width: 159px;
 height: 5px;
-left: 0%;
+left: 40%;
 top: 50px;
 
 font-family: Righteous;
@@ -147,7 +141,7 @@ color: #FFF9F9;
 position: relative;
 width: 395px;
 height: 5px;
-left: 0%;
+left: 25%;
 top: 50px;
     
 font-family: Righteous;
@@ -160,7 +154,7 @@ align-items: center;
 text-align: center;
     
 color: #FFF9F9;
-    }
+}
     
     
 /* Netzwerkzubehör-Bild */
@@ -168,21 +162,21 @@ color: #FFF9F9;
 position: absolute;
 width: 380px;
 height: 380px;
-left: 75%;
-top: 457px;
+left: 72%;
+top: 380px;
     
     
 background: url(network-network-cables-connection-plug.jpg);
-    }
+}
 
 
 /* IT-Shop */
 .IT-Shop{
 position: absolute;
 width: 252px;
-height: 60px;
+height: 50px;
 left: 35px;
-top: 51px;
+top: 20px;
 
 font-family: Righteous;
 font-style: normal;
@@ -204,7 +198,7 @@ position: absolute;
 width: 1157px;
 height: 172px;
 left: 35px;
-top: 198px;
+top: 120px;
 
 font-family: Righteous;
 font-style: normal;
@@ -213,11 +207,11 @@ font-size: 35px;
 line-height: 43px;
 display: flex;
 align-items: center;
-text-align: justify;
+*text-align: justify;
 
 color: #FFFCFC;
 
-backdrop-filter: blur(4px);
+/*backdrop-filter: blur(4px);*/
 /* Note: backdrop-filter has minimal browser support */
 }
 
