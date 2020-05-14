@@ -1,19 +1,18 @@
-/* Landing Page */
+/* Landing Page 
 .Landing{
 position: relative;
 width: 1920px;
 height: 1080px;
 background: #333333;
 }
-
+*/
 
 /* Hintergrundbild */
 .Hintergrund{
-/*position: relative;
-width: 1920px;
-height: 1080px;*/
-witdh: 100%;
-max-width: 2000px;
+position: relative;
+width: 100%;
+height: 1080px;
+max-width: 1920px;
 margin: auto;
 
 background-image: url(Hintergrund.jpg);
@@ -24,6 +23,73 @@ background-position: center;
 opacity: 1;
 
 }
+
+.images{
+    width: 100%;
+    max-width: 380px;
+    height: 380;
+    padding-right: 90px;
+    font-size: 0.7em;
+    float: left;
+    margin-top: 20px;
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+    color: #FFF9F9;
+    text-align: center;
+}
+
+.images:hover{
+    box-shadow: inset 1px 1px 1px 1px #FFFFFF;
+}
+
+.IT-Shop1{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.Text{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+    /*display: flex;*/
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #FFFCFC;
+}
+
+.Menü{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+    /*display: flex;*/
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 20px;
+    float: right;
+    color: #FFFCFC;
+}
+
+
+/* Hier beginnt der alte Part :-) */
 
 /* Kategorien */
 .Kategorie{
@@ -47,15 +113,25 @@ background: #C4C4C4;
 }
 */
 
+
+
+
+
+
+
 /* Rechenzentrum 2 */
 .Server_Bild{
-position: absolute;
-width: 395px;
-height: 5px;
-left: 0%;
-top: 380px;
+    position: absolute;
+    max-width: 380;
+    height: 380px;
+    left: 0%;
+    top: 380px;
+    /*background: url(Server1.jpg);*/
+    transition: box-shadow 3s;
+}
 
-background: url(Server1.jpg);
+.Server_Bild:hover{
+    box-shadow: inset 1px 1px 10px 20px #FFFFFF;
 }
 
 /* Server */
@@ -81,12 +157,17 @@ color: #FFF9F9;
 /* SSD´s */
 .Festplatten_Bild{
 position: absolute;
-width: 380px;
+width: 100%;
+max-width: 380px;
 height: 380px;
 left: 24%;
 top: 380px;
+background: url(Festplatte.jpg);
+transition: box-shadow 3s;
+}
 
-background: url(Festplatte.jpg)
+.Festplatten_Bild:hover{
+    box-shadow: inset 1px 1px 10px 20px #FFFFFF;
 }
 
 /* Festplatten */
@@ -112,12 +193,17 @@ color: #FFF9F9;
 /* Switches */
 .Switches_Bild{
 position: absolute;
-width: 380px;
+width: 100%;
+max-width:380px;
 height: 380px;
 left: 48%;
 top: 380px;
-
 background: url(RJ45_Switch_Ports.jpg);
+transition: box-shadow 3s;
+}
+
+.Switches_Bild:hover{
+    box-shadow: inset 1px 1px 10px 20px #FFFFFF;
 }
 
 /* Switches */
@@ -126,7 +212,7 @@ position: relative;
 width: 159px;
 height: 5px;
 left: 40%;
-top: 50px;
+top: 100px;
 
 font-family: Righteous;
 font-style: normal;
@@ -164,13 +250,17 @@ color: #FFF9F9;
 /* Netzwerkzubehör-Bild */
 .Netzwerkzubehör_Bild{
 position: absolute;
-width: 380px;
+width: 100%;
+max-width:380px;
 height: 380px;
 left: 72%;
-top: 380px;
-    
-    
-background: url(network-network-cables-connection-plug.jpg);
+top: 380px;    
+background: url(Netzwerkzubehör.jpg);
+transition: box-shadow 3s;
+}
+
+.Netzwerkzubehör_Bild:hover{
+    box-shadow: inset 1px 1px 10px 20px #FFFFFF;
 }
 
 
@@ -181,6 +271,7 @@ width: 252px;
 height: 50px;
 left: 35px;
 top: 20px;
+margin-bottom: 5px;
 
 font-family: Righteous;
 font-style: normal;
@@ -211,7 +302,7 @@ font-size: 35px;
 line-height: 43px;
 display: flex;
 align-items: center;
-*text-align: justify;
+text-align: justify;
 
 color: #FFFCFC;
 
@@ -379,3 +470,4 @@ text-align: center;
 
 color: #000000;
 }
+
