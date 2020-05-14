@@ -12,7 +12,7 @@ background: #333333;
 /*position: relative;
 width: 1920px;
 height: 1080px;*/
-witdh: 100%;
+width: 100%;
 max-width: 2000px;
 margin: auto;
 
@@ -235,7 +235,7 @@ position: absolute;
 width: 94.45px;
 height: 52px;
 left: 1310px;
-top: 55px;
+top: 0px;
 
 font-family: Righteous;
 font-style: normal;
@@ -256,7 +256,7 @@ position: absolute;
 width: 17.96px;
 height: 14.01px;
 left: 1419.02px;
-top: 89.01px;
+top: 15px;
 
 background: #FFFAFA;
 transform: rotate(179.77deg);
@@ -268,7 +268,7 @@ position: absolute;
 width: 80.8px;
 height: 52px;
 left: 1590px;
-top: 55px;
+top: 0px;
 
 font-family: Righteous;
 font-style: normal;
@@ -289,7 +289,7 @@ position: absolute;
 width: 125px;
 height: 52px;
 left: 1434px;
-top: 55px;
+top: 0px;
 
 font-family: Righteous;
 font-style: normal;
@@ -310,7 +310,7 @@ position: absolute;
 width: 80.8px;
 height: 52px;
 left: 1204px;
-top: 55px;
+top: 0px;
 
 font-family: Righteous;
 font-style: normal;
