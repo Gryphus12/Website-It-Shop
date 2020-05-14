@@ -6,11 +6,15 @@ height: 1080px;
 background: #333333;
 }
 
+
 /* Hintergrundbild */
 .Hintergrund{
-position: relative;
+/*position: relative;
 width: 1920px;
-height: 1080px;
+height: 1080px;*/
+witdh: 100%;
+max-width: 2000px;
+margin: auto;
 
 background-image: url(Hintergrund.jpg);
 background-repeat: no-repeat;
