@@ -40,7 +40,7 @@ opacity: 1;
     width: 100%;
     max-width: 380px;
     height: 380;
-    padding-right: 90px;
+    padding-right: 86px;
     font-size: 0.7em;
     float: left;
     margin-top: 20px;
@@ -54,9 +54,30 @@ opacity: 1;
     text-align: center;
 }
 
-.images:hover{
+.image_Server{
+    width: 100%;
+    max-width: 380px;
+    height: 380;
+    padding-right: 90px;
+    padding-left:35px;
+    font-size: 0.7em;
+    float: left;
+    margin-top: 20px;
+
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+    color: #FFF9F9;
+    text-align: center;
+}
+
+/*.images:hover{
     box-shadow: inset 1px 1px 1px 1px #FFFFFF;
 }
+*/
 
 .IT-Shop1{
     font-family: Righteous;
@@ -80,10 +101,13 @@ opacity: 1;
     font-size: 35px;
     line-height: 43px;
     /*display: flex;*/
-    align-items: center;
+    /*align-items: center;*/
     text-align: justify;
     margin-bottom: 20px;
     color: #FFFCFC;
+    width: 1157px;
+    height: 172px;
+    left: 35px;
 }
 
 .Menü{
@@ -92,13 +116,13 @@ opacity: 1;
     font-weight: normal;
     font-size: 35px;
     line-height: 43px;
-    margin-top: -100px;  /* Nicht ganz sauber, aber so ist die Menüleiste nach oben verschobe */
     /*display: flex;*/
     align-items: center;
     text-align: justify;
     margin-bottom: 20px;
     float: right;
     color: #FFFCFC;
+    margin-right: 50px;
 }
 
 
