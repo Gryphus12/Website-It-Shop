@@ -39,8 +39,8 @@ opacity: 1;
 .images{
     width: 100%;
     max-width: 380px;
-    height: 380;
-    padding-right: 86px;
+    height: 380px;
+    padding-right: 81px;
     font-size: 0.7em;
     float: left;
     margin-top: 20px;
@@ -57,9 +57,9 @@ opacity: 1;
 .image_Server{
     width: 100%;
     max-width: 380px;
-    height: 380;
+    height: 380px;
     padding-right: 90px;
-    padding-left:35px;
+    padding-left:50px;
     font-size: 0.7em;
     float: left;
     margin-top: 20px;
@@ -89,9 +89,11 @@ opacity: 1;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 50px;
     color: #FFFFFF;
+    
 }
 
 .Text{
@@ -101,13 +103,15 @@ opacity: 1;
     font-size: 35px;
     line-height: 43px;
     /*display: flex;*/
-    /*align-items: center;*/
+    align-items: center;
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #FFFCFC;
     width: 1157px;
     height: 172px;
     left: 35px;
+    margin-left:50px;
+    margin-right: 50px;
 }
 
 .Menü{
@@ -123,8 +127,45 @@ opacity: 1;
     float: right;
     color: #FFFCFC;
     margin-right: 50px;
+    margin-left: 30px;
 }
 
+.Bilder_About{
+    width: 100%;
+    max-width: 380px;
+    height: 380px;
+    font-size: 0.7em;
+    margin-top: 20px;
+    float:bottom; 
+    margin-top: 50px; 
+    margin-left: 50px;
+    margin-right: 200px;
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+    /*display: flex;*/
+    align-items: center;
+    text-align: justify;    
+    color: #FFFCFC;
+    
+}
+
+.Bilder_About_Text{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+    /*display: flex;*/
+    align-items: center;
+    text-align: justify;    
+    color: #FFFCFC;
+    width: 50%;
+    hight: 10% 
+}
 
 /* Hier beginnt der alte Part :-) */
 
@@ -159,7 +200,7 @@ background: #C4C4C4;
 /* Rechenzentrum 2 */
 .Server_Bild{
     position: absolute;
-    max-width: 380;
+    max-width: 380px;
     height: 380px;
     left: 0%;
     top: 380px;
