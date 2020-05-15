@@ -6,7 +6,19 @@ height: 1080px;
 background: #333333;
 }
 */
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;    /*Underline ja oder nein?*/
 
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+
+
+}
 /* Hintergrundbild */
 .Hintergrund{
 position: relative;
@@ -15,7 +27,7 @@ height: 1080px;
 max-width: 1920px;
 margin: auto;
 
-background-image: url(Hintergrund.jpg);
+background-image: url(Landing_Page_Bilder/Hintergrund.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;  
 background-size: cover;
@@ -80,6 +92,7 @@ opacity: 1;
     font-weight: normal;
     font-size: 35px;
     line-height: 43px;
+    margin-top: -100px;  /* Nicht ganz sauber, aber so ist die Menüleiste nach oben verschobe */
     /*display: flex;*/
     align-items: center;
     text-align: justify;
