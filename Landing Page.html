@@ -2,54 +2,43 @@
 <html lang="de">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css">
-        <title>It-Shop - Ihr Shop für IT</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable =no"/>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+        <title>IT-SHOP</title>
     </head>
 
 
     <body class="Hintergrund">
-
-        <h1 class="IT-Shop">IT-SHOP</h1>
-
-        <p class="Text-Startseite">Wir freuen uns, dass Sie den Weg auf unsere Website gefunden haben. <br /> Falls Sie auf der Suche nach IT-Zubehör z.B.: Server, Festplatten, Netzwerkkabel oder Switches sind, dann sind Sie bei uns genau richtig.<br />Wir wünschen Ihnen viel Spaß beim Stöbern. Ihr IT-Shop Team</p>
-        
-        
-            <p class="Home">Home</p>
-            <div>
-            <p class="Shop">Shop</p>        
-            <select name="Shop" class="Shop">       <!-- Muss noch angepasst werden-->
-                <option value="s1">Server</option>
-                <option value="s2">Festplatten</option>
-                <option value="s3">Switches</option>
-                <option value="s4">Netzwerkzubehör</option>
-            </select>
-            </div>
-            <p class="Kontakt">Kontakt</p>
-            <p class="About">About</p>
-            <p class="Polygon">s</p>                <!-- Das hier sollte das Polygon/Dreieck für das Dropdownmenü sein-->
-        
-        
-        <figure class="Server_Bild"> 
-            <img src="Server1.jpg" height="380" width="395" >
-            <figcaption class="Server_Schrift"> Server </figcaption>
-        </figure>
-
-        <figure class="Netzwerkzubehör_Bild">
-            <img src="Netzwerkzubehör.jpg" height="380" width="395" >
-            <figcaption class="Netzwerkzubehör_Schrift"> Netzwerkzubehör </figcaption>
-        </figure>
-
-        <figure class="Festplatten_Bild">
-            <img src="Festplatte.jpg" height="380" width="395" >
-            <figcaption class="Festplatten_Titel"> Festplatten </figcaption>
-        </figure>
-
-        <figure class="Switches_Bild">
-            <img src="RJ45_Switch_Ports.jpg" height="380" width="395">
-            <figcaption class="Switch_Schrift"> Switches </figcaption>
-        </figure>
-
-
+        <div>
+            <h1 class="IT-Shop1" style="padding-left: 30px;">IT-SHOP</h1>
+             <table class="Menü">
+                <tr>
+                    <td style="padding-left: 30px;">Home</td>
+                    <td style="padding-left: 30px;">Shop</td> 
+                    <td style="padding-left: 30px;">About</td>
+                    <td style="padding-left: 30px;">Konntakt</td>
+                    <td style="padding-left: 30px;">Home</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p class="Text" style="padding-left: 30px;padding-right: 30px;">Wir freuen uns, dass Sie den Weg auf unsere Website gefunden haben. <br /> Falls Sie auf der Suche nach IT-Zubehör z.B.: Server, Festplatten, Netzwerkkabel oder Switches sind, dann sind Sie bei uns genau richtig.<br />Wir wünschen Ihnen viel Spaß beim Stöbern. Ihr IT-Shop Team</p>
+        </div>
+        <div class="images">
+            <img src="Server1.jpg" width="380" height="380" style="padding-left: 30px;">
+            Server 
+        </div>
+        <div class="images">
+            <img src="Netzwerkzubehör.jpg" width="380" height="380">
+            Netzwerkzubehör
+        </div>
+        <div class="images">
+            <img src="Festplatte.jpg" width="380" height="380">
+            Festplatten
+        </div>
+        <div class="images">
+            <img src="RJ45_Switch_Ports.jpg" width="380" height="380">
+            Switches
+        </div>         
     </body>
 </html>
