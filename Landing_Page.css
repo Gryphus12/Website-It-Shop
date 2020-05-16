@@ -89,9 +89,9 @@ opacity: 1;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-left: 50px;
+    padding-top: 0%;
+    padding-bottom: 30px;
+    padding-left: 3%;
     color: #FFFFFF;
     
 }
@@ -123,48 +123,66 @@ opacity: 1;
     /*display: flex;*/
     align-items: center;
     text-align: justify;
-    margin-bottom: 20px;
+    padding-bottom: 1%;
     float: right;
     color: #FFFCFC;
-    margin-right: 50px;
-    margin-left: 30px;
+    padding-right: 3%;
 }
 
 .Bilder_About{
-    width: 100%;
-    max-width: 380px;
-    height: 380px;
-    font-size: 0.7em;
-    margin-top: 20px;
-    float:bottom; 
-    margin-top: 50px; 
-    margin-left: 50px;
-    margin-right: 200px;
+    padding-left: 2%;
+    padding-top:1%;
+    padding-right:3%;
+    width: 17%;
+}
 
+.Bilder_About_Text_Groß{ /* Originale Schriftgröße*/
     font-family: Righteous;
     font-style: normal;
     font-weight: normal;
     font-size: 35px;
     line-height: 43px;
     /*display: flex;*/
-    align-items: center;
-    text-align: justify;    
+    text-align: center;    
     color: #FFFCFC;
+    width: 100%;
+}
+
+.Bilder_About_Text_klein{ 
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 33px;
+    /*display: flex;*/
+    text-align: center;    
+    color: #FFFCFC;
+    width: 100%;
+}
+
+.About_Text_Groß{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 58px;
+    /*display: flex;*/
+    text-align: center;    
+    color: #FFFCFC;
+    width: 100%;
     
 }
 
-.Bilder_About_Text{
+.About_Text_klein{ 
     font-family: Righteous;
     font-style: normal;
     font-weight: normal;
-    font-size: 35px;
-    line-height: 43px;
+    font-size: 40px;
+    line-height: 48px;
     /*display: flex;*/
-    align-items: center;
-    text-align: justify;    
+    text-align: center;    
     color: #FFFCFC;
-    width: 50%;
-    hight: 10% 
+    width: 100%;
 }
 
 /* Hier beginnt der alte Part :-) */
