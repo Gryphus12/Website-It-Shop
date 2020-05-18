@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable =no"/>
+        <link rel="stylesheet" href="All_Sites_neu.css" type="text/css" />
+        <title>Kontakt</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>     
+                <h1 class="Titel_Kontakt">KONTAKTFORMULAR</h1>
+            </header>  
+            <nav>
+                <table>
+                    <tr>
+                        <td style="padding-left: 30px;"><a href="Landing_Page.html" target="blank">Home</a></td> <!-- Mit Target Blank öffnet man einen neuen Browsertab-->
+                        <td style="padding-left: 30px;">Shop</td> 
+                        <td style="padding-left: 30px;"><a href="About_Seite.html" target="blank">About</a></td>
+                        <td style="padding-left: 30px;"><a href="Kontakt.html" target="blank">Kontakt</a></td>
+                        <td style="padding-left: 30px;"><a href="Warenkorb.html" target="blank">Warenkorb</a></td>
+                    </tr>
+                </table>
+            </nav>
+            <div class="content">
+                <h1 class="Kontakt_Text">KONTAKTIEREN SIE UNS</h1>
+                    <form class="Formular_Text" id="kontaktformular" name="kontaktformular" action="">
+                        
+                    <div class="Container_Kontakt">
+
+                        <div>
+                            <label class="Formular_Label" for="name">Vollständiger Name:</label>
+                            <input type="text" id="name" name="name" />
+                        </div>
+                        
+                        <div>
+                            <label class="Formular_Label" for="absender">Ihre E-Mail-Adresse:</label>
+                            <input type="text" id="absender" name="absender" />
+                        </div>
+                        <div>
+                            <label class="Formular_Label" for="nachricht">Ihre Nachricht:</label>
+                            <textarea id="nachricht" name="nachricht" cols="30" rows="5"></textarea>
+                        </div>
+                        <div>
+                            <input class="rechts" type="submit" value="Abschicken" />
+                        </div>
+                    </div>
+
+                    </form>
+            </div>
+        </div>        
+    </body>   
+</html>
