@@ -249,3 +249,16 @@ input[type=submit] {
 
     text-align: left;
 }
+
+.Bestellbestaetigung_Text {
+    font-family: Righteous;
+    font-style: initial;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 58px;
+    /*display: flex;*/
+    text-align: center;    
+    color: #FFFCFC;  
+
+
+}
