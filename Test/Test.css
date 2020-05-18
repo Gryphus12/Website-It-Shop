@@ -1,18 +1,4 @@
-.Hintergrund{
-    position: relative;
-    width: 100%;
-    max-width: 1920px;
-    height: 1080px;
-   
-    
-    background-image: url(Landing_Page_Bilder/Hintergrund.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
-    background-position: center;
-    opacity: 1;
-    
-}
+/*---------allgemein-----------*/
 
 header,
 nav,
@@ -79,8 +65,30 @@ nav{
     font-size: 35px;
     line-height: 43px;
     text-align: center;
+    align-items: center;
+    display: flex;
     color: #FFFCFC;
 }
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;    /*Underline ja oder nein?*/
+
+}
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+}
+
+/*-----------CSS-About------------------*/
 
 .Bilder_About_Text_Groß{ /* Originale Schriftgröße*/
     font-family: Righteous;
@@ -135,3 +143,111 @@ nav{
 .About_Tabelle{
     width:100%
 }
+
+/*---------------CSS-Home-------------------*/
+
+.Home_Tabelle{
+    width:100%;    
+}
+
+.Text{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+    width: 1157px;
+    height: 172px;
+    /*display: flex;*/
+    align-items: center;
+    text-align: justify;
+    color: #FFFCFC;   
+}
+
+
+/*--------------------CSS-Warenkorb---------------*/
+
+.Box_1{
+    width: 30%;
+    height: 745px;
+    clear: both;
+    float:left;
+    /*margin-bottom: 20px;*/
+    border: 2px solid red;
+    background-color: white;
+    opacity: 0.25;
+
+}
+
+.Box_2{
+    width: 30%;
+    height: 745px;
+    /*clear:both;*/
+    float:left;
+    margin-left: 4.67%;
+    /*margin-bottom: 20px;*/
+    border: 2px solid red;
+    background-color: white;
+    opacity: 0.25;
+}
+
+.Box_3{
+    width: 30%;
+    height: 745px;
+    /*clear: both;*/
+    float:left;
+    margin-left: 4.66%;
+    /*margin-bottom: 20px;*/
+    border: 2px solid red;
+    background-color: white;
+    opacity: 0.25;
+}
+
+/*--------------------------CSS-Produkte----------------*/
+
+#body_Server{
+    /*background-color: #FE9A2E;*/
+
+    background-image: url(../Landing_Page_Bilder/Server1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+.Box_1_Produkt{
+    width: 49%;
+    height: 745px;
+    clear: both;
+    float:left;
+    border: 2px solid red;
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    align-items: center;      
+    color: #FFFCFC;
+
+}
+
+.Box_2_Produktbeschreibung{
+    width: 49%;
+    height: 745px;
+    margin-left: 1.55%;
+    float:left;
+    border: 2px solid red;
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    align-items: center;      
+    color: #FFFCFC;
+}
+
