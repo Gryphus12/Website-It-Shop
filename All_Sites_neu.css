@@ -99,6 +99,198 @@ nav{
     color: #FFFCFC;
 }
 
+/*---------------CSS-Home-------------------*/
+
+.Home_Tabelle{
+    width:100%;    
+}
+
+.Text{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 43px;
+    width: 1157px;
+    height: 172px;
+    /*display: flex;*/
+    align-items: center;
+    text-align: justify;
+    color: #FFFCFC;   
+}
+
+
+/*--------------------CSS-Warenkorb---------------*/
+
+.Box_1{
+    width: 30%;
+    height: 745px;
+    clear: both;
+    float:left;
+    /*margin-bottom: 20px;*/
+    border: 2px solid red;
+    background-color: grey;
+    opacity: 1;
+
+}
+
+.Ueberschriften_Warenkorb {
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    align-items: center;      
+    color: black;
+    opacity: 1;
+
+}
+
+.Warenkorb_Label{
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    /*display: flex;*/
+    text-align: left;    
+    color:black; 
+
+}
+
+input[type=Liefer], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+.Box_2{
+    width: 30%;
+    height: 745px;
+    /*clear:both;*/
+    float:left;
+    margin-left: 4.67%;
+    /*margin-bottom: 20px;*/
+    border: 2px solid red;
+    background-color: grey;
+    opacity: 1;
+}
+
+input[type=zahlen] {
+    width: 40%;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+input[type=bestätigung] {
+    width: 12%;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+
+.mitte {
+    text-align: center;
+
+}
+
+.mitte_unten {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.unten {
+    padding-top: 220px;
+
+}
+.Box_3{
+    width: 30%;
+    height: 745px;
+    /*clear: both;*/
+    float: right;
+    margin-left: 4.66%;
+    /*margin-bottom: 20px;*/
+    border: 2px solid red;
+    background-color: grey;
+    opacity: 1;
+}
+.mitte_unten_unten {
+    text-align: center;
+    padding-top: 535px;
+}
+/*--------------------------CSS-Produkte----------------*/
+
+#body_Server{
+    /*background-color: #FE9A2E;*/
+
+    background-image: url(Shop_Seiten_Bilder/Rechenzentrum_dunkler.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+.Box_1_Produkt{
+    width: 49%;
+    height: 745px;
+    clear: both;
+    float:left;
+    border: 2px solid red;
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    align-items: center;      
+    color: #FFFCFC;
+
+}
+
+.Box_2_Produktbeschreibung{
+    width: 49%;
+    height: 745px;
+    margin-left: 1.55%;
+    float:left;
+    border: 2px solid red;
+
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    align-items: center;      
+    color: #FFFCFC;
+}
+
+
+
 .Bilder_About_Text_Groß{ /* Originale Schriftgröße*/
     font-family: Righteous;
     font-style: normal;
