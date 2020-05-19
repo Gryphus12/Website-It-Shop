@@ -94,7 +94,7 @@ header{
 }
 
 nav{
-    width: 42%; /* Sollten bzgl. des Warenkorb(1)s schauen wieviel da rein kann*/
+    width: 44%; /* Sollten bzgl. des Warenkorb(1)s schauen wieviel da rein kann*/
     height: 100px;
     float: right;
     margin-bottom: 20px;
