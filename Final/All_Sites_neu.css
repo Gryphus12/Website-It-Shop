@@ -10,9 +10,9 @@
     background-attachment: fixed;  
     background-size: cover;
     background-position: center;
-    opacity: 1;*/
+    opacity: 1;
     
-}
+}*/
 
 header,
 nav,
@@ -57,7 +57,7 @@ body{
 }
 
 header{
-    width: 30%;
+    width: 35%;
     height: 100px;
     margin-bottom: 20px;
     float: left;
@@ -84,7 +84,7 @@ header{
 }
 
 nav{
-    width:38%;
+    width:41%;
     height: 100px;
     float: right;
     margin-bottom: 20px;
