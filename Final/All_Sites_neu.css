@@ -10,8 +10,9 @@
     background-attachment: fixed;  
     background-size: cover;
     background-position: center;
-    opacity: 1;*/
+    opacity: 1;
     
+}*/
 
 
 header,
@@ -66,7 +67,7 @@ body{
 }
 
 header{
-    width: 30%;
+    width: 35%;
     height: 100px;
     margin-bottom: 20px;
     float: left;
