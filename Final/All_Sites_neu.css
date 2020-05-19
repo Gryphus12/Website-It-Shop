@@ -12,7 +12,7 @@
     background-position: center;
     opacity: 1;*/
     
-}
+
 
 header,
 nav,
@@ -35,6 +35,15 @@ a:hover {
 a:visited {
     color: white;
     background-color: transparent;
+}
+
+.image {
+    opacity: 1;
+}
+
+.image:hover {
+    opacity: 0.8;
+
 }
 
 body{
@@ -84,7 +93,7 @@ header{
 }
 
 nav{
-    width:38%;
+    width: 42%; /* Sollten bzgl. des Warenkorb(1)s schauen wieviel da rein kann*/
     height: 100px;
     float: right;
     margin-bottom: 20px;
@@ -184,7 +193,7 @@ nav{
 }
 
 
-/*--------------------CSS-Warenkorb---------------*/
+/*--------------------CSS-Warenkorb(1)---------------*/
 
 .Box_1{
     width: 30%;
@@ -281,6 +290,12 @@ input[type=bestätigung] {
 
 }
 
+.right {
+
+    text-align: right;
+    
+}
+
 .mitte_unten {
     text-align: center;
     padding-top: 300px;
@@ -301,9 +316,21 @@ input[type=bestätigung] {
     background-color: grey;
     opacity: 1;
 }
+
+.Schrift_Warenkorb {
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 5px;
+    text-align: left;
+    align-items: center;      
+    color: black;
+}
+
 .mitte_unten_unten {
     text-align: center;
-    padding-top: 535px;
+    padding-top: 275px;
 }
 /*--------------------------CSS-Produkte----------------*/
 
