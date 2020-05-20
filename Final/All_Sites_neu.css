@@ -346,6 +346,38 @@ input[type=bestätigung] {
     opacity: 1;
 }
 
+#body_Festplatte{
+    /*background-color: #FE9A2E;*/
+
+    background-image: url(Shop_Seiten_Bilder/SSD_Hintergrund.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+#body_Switches{
+    /*background-color: #FE9A2E;*/
+
+    background-image: url(Shop_Seiten_Bilder/Switch_Hintergrund.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+#body_Kabel{
+    /*background-color: #FE9A2E;*/
+
+    background-image: url(Shop_Seiten_Bilder/Kabel_Hintergrund.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
 .Box_1_Produkt{
     width: 49%;
     height: 745px;
