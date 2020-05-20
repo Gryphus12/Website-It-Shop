@@ -132,7 +132,7 @@ nav{
     overflow: hidden;
   }
   
-  .dropdown .dropbtn {
+ .dropdown .dropbtn {
     /*font-size: 16px;*/
     border: none;
     outline: none;
@@ -173,6 +173,65 @@ nav{
     display: block;
   }
 
+/*------------Drop-Down_Produkt-----------*/
+.dropbtn1 {
+    background-color: white;
+    color:black;
+    padding: 16px;
+    font-size: 16px;
+    font-family: Righteous;
+    border: none;
+    cursor: pointer;
+    clear: both;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content1 {
+    display: none;
+    /*position: absolute;*/
+    position: absolute;
+    background-color: #f9f9f9;
+    /*min-width: 160px;*/
+    min-width: 95px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content1 a {
+    color: black;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content1 a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown1:hover .dropbtn1 {
+    background-color: white;
+  }
+
+  .indenwarenkorb{
+      width: 50%;
+      margin-left: 7%;
+      height: 6.7%;
+      float:left;
+  }
+
 /*---------------CSS-Home-------------------*/
 
 .Home_Tabelle{
@@ -194,6 +253,7 @@ nav{
 }
 
 
+
 /*--------------------CSS-Warenkorb(1)---------------*/
 
 .Box_1{
@@ -204,7 +264,7 @@ nav{
     /*margin-bottom: 20px;*/
     border: 2px solid red;
     background-color: grey;
-    opacity: 1;
+    background: rgba(255,255,255,0.3);
 
 }
 
@@ -254,7 +314,7 @@ input[type=Liefer], select {
     /*margin-bottom: 20px;*/
     border: 2px solid red;
     background-color: grey;
-    opacity: 1;
+    background: rgba(255,255,255,0.3);
 }
 
 input[type=zahlen] {
@@ -304,6 +364,7 @@ input[type=bestätigung] {
 
 .unten {
     padding-top: 220px;
+    padding-left:8%;
 
 }
 .Box_3{
@@ -315,7 +376,7 @@ input[type=bestätigung] {
     /*margin-bottom: 20px;*/
     border: 2px solid red;
     background-color: grey;
-    opacity: 1;
+    background: rgba(255,255,255,0.3);
 }
 
 .Schrift_Warenkorb {
@@ -388,8 +449,9 @@ input[type=bestätigung] {
     font-family: Righteous;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 36px;
+    /*line-height: 48px;*/
+    line-height: 45px;
     text-align: center;
     align-items: center;      
     color: #FFFCFC;
@@ -406,8 +468,10 @@ input[type=bestätigung] {
     font-family: Righteous;
     font-style: normal;
     font-weight: normal;
-    font-size: 40px;
-    line-height: 48px;
+    /*font-size: 40px;
+    line-height: 48px;*/
+    font-size: 30px;
+    line-height: 37px;
     text-align: center;
     align-items: center;      
     color: #FFFCFC;
