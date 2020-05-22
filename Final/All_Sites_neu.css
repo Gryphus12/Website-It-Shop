@@ -63,7 +63,7 @@ body{
     margin: 0px auto;
     margin-top: 20px;
     padding:20px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 header{
@@ -71,7 +71,7 @@ header{
     height: 100px;
     margin-bottom: 20px;
     float: left;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 
     font-family: Righteous;
     font-style: normal;
@@ -90,7 +90,7 @@ header{
     height: 745px;
     clear: both;
     /*margin-bottom: 20px;*/
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 nav{
@@ -98,7 +98,7 @@ nav{
     height: 100px;
     float: right;
     margin-bottom: 20px;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 
     font-family: Righteous;
     font-style: normal;
@@ -263,7 +263,7 @@ nav{
     clear: both;
     float:left;
     /*margin-bottom: 20px;*/
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     background-color: grey;
     background: rgba(255,255,255,0.3);
 
@@ -313,7 +313,7 @@ input[type=Liefer], select {
     float:left;
     margin-left: 4.67%;
     /*margin-bottom: 20px;*/
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     background-color: grey;
     background: rgba(255,255,255,0.3);
 }
@@ -394,7 +394,7 @@ input[type="warenkorb"]:hover {
     float: right;
     margin-left: 4.66%;
     /*margin-bottom: 20px;*/
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     background-color: grey;
     background: rgba(255,255,255,0.3);
 }
@@ -464,7 +464,7 @@ input[type="warenkorb"]:hover {
     height: 745px;
     clear: both;
     float:left;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 
     font-family: Righteous;
     font-style: normal;
@@ -483,7 +483,7 @@ input[type="warenkorb"]:hover {
     height: 745px;
     margin-left: 1.55%;
     float:left;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 
     font-family: Righteous;
     font-style: normal;
